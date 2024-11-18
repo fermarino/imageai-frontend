@@ -120,7 +120,7 @@ function App() {
       )}
 
       {error && <div className="error">{error}</div>}
-      {apiResponseTime && apiResponseTime !== null && (
+      {apiResponseTime !== null && (
         <div className="response-time">
           Tempo de resposta: {apiResponseTime.toFixed(2)} ms
         </div>
